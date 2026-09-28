@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  width: 60ch;
+  margin: 0 auto;
+  padding: 1ch;
+  display: grid;
+  text-align: center;
+  gap: 1ch;
+}
+
+table,
+thead {
+  text-align: left;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 2px dashed grey;
+  padding: 0.5ch;
+}
+
+tbody tr:nth-child(odd) {
+  background: rgb(221, 217, 211);
+}
